@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles/global.scss"
+              "src/app/styles/global.scss"
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
