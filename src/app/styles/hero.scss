@@ -1,0 +1,18 @@
+.hero-container {
+  background-image: url('/../../assets/images/heroPhoto.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-behavior: smooth;
+  height: 1000px;
+  width: 100%;
+}
+
+.hero-main-container {
+  max-width: 100%;
+  width: 60%;
+  padding: 40px;
+  margin: 0 auto;
+
+}
