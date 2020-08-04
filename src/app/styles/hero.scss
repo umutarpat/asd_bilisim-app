@@ -7,28 +7,23 @@
 .hero-main-wrapper
 {
   margin-top: 5%;
-  width: 600px;
+  width: 100%;
   margin-left: 20%;
+  display: flex;
 }
 
 .hero-title-container {
   width: 300px;
-
   padding: 40px;
 }
 
 .hero-image-container {
   float: right;
-  width: 300px;
-  img {
-
+  width: 1000px;
+  background-image: url('/../../assets/images/heroPhoto.jpg');
+  background-size: contain;
+background-repeat: no-repeat;
     height: 500px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    scroll-behavior: smooth;
-  }
 }
 
 
