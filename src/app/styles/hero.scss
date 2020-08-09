@@ -14,7 +14,7 @@
 
 .hero-title-container {
   width: 300px;
-  padding: 40px;
+  height: 500px;
   font-family: 'Chango', cursive;
   h1 {
     color: #1f2633;
@@ -23,9 +23,11 @@
 }
 
 .hero-image-container {
+  margin-left: 4.2%;
   float: right;
   width: 1000px;
-  background-image: url('/../../assets/images/heroPhoto.jpg');
+  background-image: url('/../../assets/images/heroPhoto.png');
+  background-position: 0px 17px;
   background-size: contain;
 background-repeat: no-repeat;
     height: 500px;
