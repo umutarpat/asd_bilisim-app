@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HeroComponent } from './shared/components/hero/hero.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/anasayfa', pathMatch: 'full' },
-  { path: 'anasayfa', component: HeroComponent,}
+  { path: 'anasayfa', component: HomePageComponent,}
 ];
 
 @NgModule({
