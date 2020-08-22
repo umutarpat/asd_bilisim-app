@@ -1,11 +1,9 @@
-.hero-container
-{
+.hero-container {
   height: 1000px;
   width: 100%;
 }
 
-.hero-main-wrapper
-{
+.hero-main-wrapper {
   margin-top: 5%;
   width: 100%;
   margin-left: 20%;
@@ -15,27 +13,23 @@
 .hero-title-container {
   width: 300px;
   height: auto;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   letter-spacing: 3px;
   line-height: 1.8;
   position: relative;
   top: 62px;
-  h1 {
-
-   font-size: 50px;
-
-  }
+}
+.hero-title-container h1 {
+  font-size: 50px;
 }
 
 .hero-image-container {
   margin-left: 4.2%;
   float: right;
   width: 1000px;
-  background-image: url('/../../assets/images/heroPhoto.png');
+  background-image: url("/../../assets/images/heroPhoto.png");
   background-position: 0px 17px;
   background-size: contain;
-background-repeat: no-repeat;
-    height: 500px;
+  background-repeat: no-repeat;
+  height: 500px;
 }
-
-
