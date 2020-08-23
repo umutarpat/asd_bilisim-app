@@ -1,0 +1,43 @@
+.header-container {
+  max-width: 100%;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+  display: flex;
+}
+.header-container img {
+  max-width: 100%;
+  height: auto;
+}
+.header-container nav {
+  margin-left: 14%;
+}
+.header-container nav ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+}
+.header-container nav li a {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  color: #1f2633;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 1rem 2rem 1.15rem;
+}
+.header-container nav li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #ff9900;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.header-container nav li a:hover:after {
+  width: 100%;
+  left: 0;
+}

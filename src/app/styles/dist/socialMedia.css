@@ -1,0 +1,6 @@
+.socialBarContainer a {
+  color: #ff9900;
+}
+.socialBarContainer a:not(:first-child) {
+  padding: 20px;
+}
