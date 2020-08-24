@@ -1,5 +1,7 @@
 
-
+.service-container {
+  margin-bottom: 8%;
+}
 
 .services-title {
   width: 50%;
@@ -19,12 +21,12 @@
 }
 
 
-.service-container {
+.service-grid {
+  font-family: 'Montserrat', sans-serif;
   display: grid;
   grid-column-gap: 5px;
   grid-template-columns: auto auto auto;
   margin-top: 5%;
-  margin-bottom: 12%;
   width: 90%;
 }
 
@@ -43,12 +45,11 @@
   h2 {
     font-size: 16px;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+
   }
 
   p {
     color: #838794;
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     margin-left: 58px;
   }

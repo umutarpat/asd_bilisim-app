@@ -1,0 +1,44 @@
+.about-container
+{
+  width: 100%;
+  margin-bottom: 12%;
+}
+
+.about-main-wrapper
+{
+  display: flex;
+}
+
+.about-title-container {
+  padding-top: 105px;
+  width: 50%;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+
+  height: auto;
+  h1 {
+
+    font-size: 40px;
+    margin: 0;
+
+  }
+
+  h4 {
+    margin-bottom: 2%;
+  }
+
+  p {
+    color: #838794;
+  }
+}
+
+.about-image-container {
+  float: right;
+  width: 80%;
+  background-image: url('/../../assets/images/aboutPhoto.png');
+  background-size: contain;
+background-repeat: no-repeat;
+    height: 550px;
+}
+
+
