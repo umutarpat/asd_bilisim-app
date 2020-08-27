@@ -16,9 +16,8 @@ var hero_component_1 = require("./shared/components/hero/hero.component");
 var header_bar_component_1 = require("./shared/components/header-bar/header-bar.component");
 var about_component_1 = require("./shared/components/about/about.component");
 var our_services_component_1 = require("./shared/components/our-services/our-services.component");
-var contact_component_1 = require("./shared/components/contact/contact.component");
 var footer_bar_component_1 = require("./shared/components/footer-bar/footer-bar.component");
-var communication_component_1 = require("./shared/components/communication/communication.component");
+var contact_form_component_1 = require("./shared/components/contact-form/contact-form.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -31,13 +30,12 @@ var AppModule = /** @class */ (function () {
                 header_bar_component_1.HeaderBarComponent,
                 about_component_1.AboutComponent,
                 our_services_component_1.OurServicesComponent,
-                contact_component_1.ContactComponent,
                 footer_bar_component_1.FooterBarComponent,
-                communication_component_1.CommunicationComponent
+                contact_form_component_1.ContactFormComponent,
             ],
             imports: [
                 platform_browser_1.BrowserModule,
-                app_routing_module_1.AppRoutingModule
+                app_routing_module_1.AppRoutingModule,
             ],
             providers: [],
             bootstrap: [app_component_1.AppComponent]

@@ -8,9 +8,8 @@ import { HeroComponent } from './shared/components/hero/hero.component';
 import {HeaderBarComponent} from './shared/components/header-bar/header-bar.component';
 import { AboutComponent } from './shared/components/about/about.component';
 import { OurServicesComponent } from './shared/components/our-services/our-services.component';
-import { ContactComponent } from './shared/components/contact/contact.component';
 import { FooterBarComponent } from './shared/components/footer-bar/footer-bar.component';
-import { CommunicationComponent } from './shared/components/communication/communication.component';
+import { ContactFormComponent } from './shared/components/contact-form/contact-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,13 +18,12 @@ import { CommunicationComponent } from './shared/components/communication/commun
     HeaderBarComponent,
     AboutComponent,
     OurServicesComponent,
-    ContactComponent,
     FooterBarComponent,
-    CommunicationComponent
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

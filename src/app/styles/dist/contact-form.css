@@ -1,0 +1,58 @@
+.contactForm-container {
+  width: 90%;
+  margin-bottom: 12%;
+}
+
+.ContactForm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact-us {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  height: auto;
+}
+.contact-us h1 {
+  margin: 0;
+  font-size: 40px;
+}
+.contact-us h4 {
+  margin-bottom: 2%;
+}
+.contact-us .input,
+.contact-us .msg .area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+.contact-us .login .input {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+.contact-us .login .input:last-child {
+  margin-right: 0;
+}
+.contact-us .msg .area {
+  height: 200px;
+}
+.contact-us .btn {
+  width: 250px;
+  background: #ff9900;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
