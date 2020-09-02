@@ -8,11 +8,22 @@ h1,h2 {
   color: #32343D;
 }
 
+
 section,header{
   margin-left: 20%;
+
+  @media (max-width: 1700px) {
+    margin-left: 10%;
+  }
+
+  @media (max-width: 1500px) {
+    margin-left: 5%;
+  }
+
+  @media (max-width: 1000px) {
+    margin-left: 0%;
+  }
+
 }
 
-footer{
 
-
-}

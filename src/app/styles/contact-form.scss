@@ -11,9 +11,14 @@
   display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-}
 
-.google-map-container {
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: 1fr;
+
+
+  }
+
+
 }
 
 .contact-us

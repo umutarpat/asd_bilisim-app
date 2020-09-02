@@ -4,14 +4,15 @@
   margin-bottom: 12%;
 }
 
-.about-main-wrapper
+.about-grid
 {
-  display: flex;
+  display: grid;
+  grid-template-columns:  40% 60%;
 }
 
 .about-title-container {
   padding-top: 105px;
-  width: 50%;
+
   position: relative;
   font-family: 'Montserrat', sans-serif;
 
@@ -34,7 +35,6 @@
 
 .about-image-container {
   float: right;
-  width: 80%;
   background-image: url('/../../assets/images/aboutPhoto.png');
   background-size: contain;
 background-repeat: no-repeat;
