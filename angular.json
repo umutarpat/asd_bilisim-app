@@ -35,7 +35,7 @@
                 "src/app/styles"
               ]
             },
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery.slim.js"]
           },
           "configurations": {
             "production": {
