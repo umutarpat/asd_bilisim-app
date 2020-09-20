@@ -1,4 +1,6 @@
 
+
+
 .hero-container
 {
   width: 100%;
@@ -10,11 +12,28 @@
   margin-top: 5%;
   display: grid;
   grid-template-columns: 300px 1000px;
-    grid-gap: 1rem;
+  grid-template-rows: 500px 50px;
+  gap: 1px 1px;
+  grid-template-areas:
+    "title image"
+    "social .";
+
+    @media screen and (min-width: 1000px) and (max-width: 1375px) {
+      grid-template-columns: 300px 700px;
+  grid-template-rows: 400px 50px;
+  gap: 1px 1px;
+  grid-template-areas:
+    "title image"
+    "social .";
+    }
 
     @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
+      grid-template-areas:
+        "title"
+        "image"
+        "social";
     }
 
 
@@ -22,7 +41,7 @@
 
 
 .hero-title-container {
-  //grid-area: titleArea;
+  grid-area: title;
   font-family: 'Patua One', cursive;
   letter-spacing: 3px;
   line-height: 1.8;
@@ -47,7 +66,7 @@
 
 .hero-image-container {
 
- // grid-area: photoArea;
+  grid-area: image;
   margin-left: 4.2%;
   background-image: url('/../../assets/images/heroPhoto.png');
   background-size: contain;
@@ -70,7 +89,7 @@ margin-right: 3%;
 .socialBarContainer
 {
 
-   //grid-area: socialArea;
+  grid-area: social;
 
   @media screen and (max-width: 1000px)
   {
