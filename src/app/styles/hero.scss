@@ -12,23 +12,14 @@
 
   margin-top: 5%;
   display: grid;
-  grid-template-columns: 300px 1000px;
-  grid-template-rows: auto 100px;
+  grid-template-columns: repeat(auto-fill, 186px) repeat(auto-fill, 186px);
   gap: 1px 1px;
   grid-template-areas:
     "title image"
     "social .";
 
-    @media screen and (min-width: 1000px) and (max-width: 1375px) {
-      grid-template-columns: 300px 100px;
-  grid-template-rows: 100px 50px;
-  gap: 1px 1px;
-  grid-template-areas:
-    "title image"
-    "social .";
-    }
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1470px) {
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
       grid-template-areas:
@@ -46,8 +37,10 @@
   font-family: 'Patua One', cursive;
   letter-spacing: 3px;
   line-height: 1.8;
-
+  position: relative;
   h1 {
+    position: absolute;
+    bottom: 0;
     align-self: end;
     margin: 0;
     @media screen and (max-width: 1000px)
@@ -67,11 +60,14 @@
   }
 }
 .hero-image-container {
-
   img {
+    width: 1000px;
     grid-area: image;
     margin-left: 4.2%;
-    max-width: 100%;
+
+    @media screen and (max-width: 1470px) {
+      max-width: 100%;
+    }
   }
 
 }
