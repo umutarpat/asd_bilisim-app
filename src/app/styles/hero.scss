@@ -1,15 +1,9 @@
-
-
-
-.hero-container
-{
+.hero-container {
   width: 100%;
   margin-bottom: 12%;
 }
 
-.hero-grid
-{
-
+.hero-grid {
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(auto-fill, 186px) repeat(auto-fill, 186px);
@@ -18,78 +12,71 @@
     "title image"
     "social .";
 
-
-    @media screen and (max-width: 1470px) {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto;
-      grid-template-areas:
-        "title"
-        "image"
-        "social";
-    }
-
-
+  @media screen and (max-width: 1030px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "image"
+      "social";
+  }
 }
-
 
 .hero-title-container {
   grid-area: title;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   letter-spacing: 3px;
   line-height: 1.8;
   position: relative;
   h1 {
-    position: absolute;
-    bottom: 0;
-    align-self: end;
     margin: 0;
-    @media screen and (max-width: 1000px)
-    {
-      text-align:center;
+    @media screen and (max-width: 1030px) {
+      text-align: center;
       font-size: 45px;
 
       br {
         display: none;
       }
-
     }
 
+    @media screen and (min-width: 1031px) and (max-width: 1330px) {
+      font-size: 40px;
+    }
 
-   font-size: 50px;
-
+    font-size: 50px;
   }
 }
 .hero-image-container {
   img {
     width: 1000px;
+    margin: 0 !important;
     grid-area: image;
     margin-left: 4.2%;
 
-    @media screen and (max-width: 1470px) {
+    @media screen and (min-width: 1330px) and (max-width: 1470px) {
+      width: 800px;
+    }
+
+    @media screen and (min-width: 1031px) and (max-width: 1330px) {
+      width: 700px;
+    }
+
+    @media screen and (max-width: 1030px) {
       max-width: 100%;
     }
   }
-
 }
 
-
-.socialBarContainer
-{
-
+.socialBarContainer {
   grid-area: social;
 
-  @media screen and (max-width: 1000px)
-  {
-    text-align:center;
+  @media screen and (max-width: 1030px) {
+    text-align: center;
   }
 
-a {
-
-  &:not(:first-child) {
-    padding:  20px;
+  a {
+    &:not(:first-child) {
+      padding: 20px;
+    }
+    color: #ff9900;
+  }
 }
-  color: #ff9900;
-}
-}
-
-
